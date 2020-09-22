@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "~=3.8"
+
+[packages]
+splitio-client = "~=8.2"
+pytest = "~=6.0"
+pygments = "~=2.7"
+
+[requires]
+python_version = "3.8"
